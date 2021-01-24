@@ -1983,6 +1983,7 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		width: 475px;
 	}
 
 		.item header {
@@ -2632,4 +2633,25 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+	/* Refactored CSS by Kevin */
+
+	.project-container {
+		width: 960px;
+	}
+
+	.project-descriptions {
+		margin-bottom: 50px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.project-descriptions ul {
+		margin-left: 50px;
+	}
+
+	.project-descriptions:last-of-type {
+		margin-bottom: 0px;
 	}
