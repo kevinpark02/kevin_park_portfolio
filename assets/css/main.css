@@ -1983,7 +1983,7 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
-		width: 475px;
+		width: 455px;
 	}
 
 		.item header {
@@ -2649,7 +2649,9 @@ input, select, textarea {
 	}
 
 	.project-descriptions ul {
+		width: 455px;
 		margin-left: 50px;
+		text-align: left;
 	}
 
 	.project-descriptions:last-of-type {
