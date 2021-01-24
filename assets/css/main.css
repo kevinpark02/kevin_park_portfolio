@@ -1752,6 +1752,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			object-fit: cover;
 		}
 
 		.image.avatar48 {
@@ -2248,7 +2249,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/kevin_profile_banner.jpg");
+				opacity: 80%;
 			}
 
 			#main > section.two {
