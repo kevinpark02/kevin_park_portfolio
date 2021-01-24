@@ -1991,10 +1991,17 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			display: flex;
+			justify-content: space-around;
 		}
 
 			.item header h3 {
 				font-size: 1em;
+			}
+
+			.item header a{
+				font-size: 1em;
+				cursor: pointer;
 			}
 
 /* Icons */
@@ -2641,19 +2648,52 @@ input, select, textarea {
 		width: 960px;
 	}
 
-	.project-descriptions {
+	.project-descriptions-left {
 		margin-bottom: 50px;
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
 	}
 
-	.project-descriptions ul {
+	.project-descriptions-left ul {
 		width: 455px;
 		margin-left: 50px;
 		text-align: left;
 	}
 
-	.project-descriptions:last-of-type {
+	.project-descriptions-left:last-of-type {
 		margin-bottom: 0px;
+	}
+
+	.project-descriptions-right {
+		margin-bottom: 50px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.project-descriptions-right ul {
+		width: 455px;
+		margin-right: 50px;
+		text-align: left;
+	}
+
+	/* Skills */
+
+	.skills-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.skills-container header {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.skills-container img {
+		width: 75px;
+		height: 75px;
+		margin-left: 10px;
 	}

@@ -30,7 +30,7 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">About</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projects</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Skills</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-tools">Skills</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -60,7 +60,7 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! My name is <strong>Kevin</strong> <br />
+								<h2 class="alt">Hi! My name is <strong>Kevin.</strong> <br />
 								I am a <strong>Software Engineer</strong>.</h2>
 								<p>I am a former civil engineer turned software engineer. <br />
 								Once I built dams and foundations with concrete, but now I build <br />
@@ -79,44 +79,64 @@
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Projects</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							<!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
 							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
 							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							fusce hendrerit lacus ridiculus.</p> -->
 
 							<div class="row">
 								<div class="project-container"> <!-- class used to be "col-4 col-12-mobile" -->
-									<div class="project-descriptions">
+									<div class="project-descriptions-left">
 										<article class="item">
-											<a href="#" class="image fit"><img src="images/project_dorello.gif" alt="" /></a>
+											<a href="https://dorellokp.herokuapp.com/#/" target="_blank" class="image fit"><img src="images/project_dorello.gif" alt="" /></a>
 											<header>
-												<h3>Dorello</h3>
+												<a href="https://dorellokp.herokuapp.com/#/" target="_blank">Live Site</a>
+												<a href="https://github.com/kevinpark02/Dorello" target="_blank">Github Repo</a>
 											</header>
 										</article>
 										<ul>
-											<li>hello1</li>
-											<li>hello2</li>
-											<li>hello3</li>
+											<h3>Dorello</h3>
+											<li>Designed a normalized application state by employing associations (belongs to, has many, through) among the board, list,
+											card, and comment models and using the jbuilder to display all lists, cards, and comments connected to a board</li>
+											<li>Applied React-Beautiful-Dnd to create a drag and drop feature, and reflected re-ordering of lists and cards made in the
+											frontend to persist in the backend by updating array columns, listOrder and cardOrder</li>
+											<li>Implemented AWS S3 Hosting for the users to post, update, and display their profile pictures in React and secured the
+											access to the database by using the Rails encryption pattern to protect the keys and credentials</li>
 										</ul>
 									</div>
-									<div class="project-descriptions">
+									<div class="project-descriptions-right">
+										<ul>
+											<h3>Melting Pot</h3>
+											<li>Coordinated with three other team members and used feature branch git workflow to simultaneously create different
+											features for the application</li>
+											<li>Hello</li>
+											<li>Hello</li>
+										</ul>
 										<article class="item">
-											<a href="#" class="image fit"><img src="images/project_meltingpot.gif" alt="" /></a>
+											<a href="https://melting-pot-mern.herokuapp.com/#/" target="_blank" class="image fit"><img src="images/project_meltingpot.gif" alt="" /></a>
 											<header>
-												<h3>Melting Pot</h3>
+												<a href="https://melting-pot-mern.herokuapp.com/#/" target="_blank">Live Site</a>
+												<a href="https://github.com/ChristopherJose707/Melting-Pot" target="_blank">Github Repo</a>
 											</header>
 										</article>
 									</div>
-									<div class="project-descriptions">
+									<div class="project-descriptions-left">
 										<article class="item">
-											<a href="#" class="image fit"><img src="images/project_uccollegefact.gif" alt="" /></a>
+											<a href="https://kevinpark02.github.io/college_town_facts/" target="_blank" class="image fit"><img src="images/project_uccollegefact.gif" alt="" /></a>
 											<header>
-												<h3>UC College Facts</h3>
+												<a href="https://kevinpark02.github.io/college_town_facts/" target="_blank">Live Site</a>
+												<a href="https://github.com/kevinpark02/college_town_facts" target="_blank">Github Repo</a>
 											</header>
 										</article>
+										<ul>
+											<h3>UC College Town Facts</h3>
+											<li>Applied AnyChart JavaScript library to display pie charts to depict the demographic of each UC school</li>
+											<li>Incorporated live weather update of each school by calling an asynchronous function to fetch weather information from the
+											Open Weather Map API and displayed weather information by setting the text content the document weather elements</li>
+										</ul>
 									</div>
 								</div>
 
@@ -127,20 +147,39 @@
 
 				<!-- About Me -->
 					<section id="about" class="three">
-						<div class="container">
+						<div class="container skills-container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Skills</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<h5>Languages: Ruby, JavaScript, HTML5, CSS3</h5> 
+							<br>
+							<div class="skills-language">
+								<img src="images/skills_ruby.png" alt="">
+								<img src="images/skills_js.png" alt="">
+								<img src="images/skills_html.png" alt="">
+								<img src="images/skills_css.png" alt="">
+							</div>
+							<br>
+							<h5>Libraries/Frameworks: React, Redux, Node, Ruby on Rails, jQuery</h5>
+							<br>
+							<div class="skills-libraries">
+								<img src="images/skills_react.png" alt="">
+								<img src="images/skills_redux.png" alt="">
+								<img src="images/skills_node.png" alt="">
+								<img src="images/skills_ruby_on_rails.png" alt="">
+								<img src="images/skills_jquery.png" alt="">
+							</div>
+							<br>
+							<h5>Web Tools: Git, Heroku, MongoDB, PostgreSQL</h5>
+							<br>
+							<div class="skills-libraries">
+								<img src="images/skills_git.png" alt="">
+								<img src="images/skills_heroku.png" alt="">
+								<img src="images/skills_mongodb.png" alt="">
+								<img src="images/skills_postgresql.jpg" alt="">
+							</div>
 
 						</div>
 					</section>
@@ -181,7 +220,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Kevin Park</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</div>
