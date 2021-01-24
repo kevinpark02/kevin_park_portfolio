@@ -2697,3 +2697,24 @@ input, select, textarea {
 		height: 75px;
 		margin-left: 10px;
 	}
+
+	/* Profile Picture */
+	.profile-pic {
+		width: 175px;
+		height: 175px;
+		object-fit: cover;
+		border-radius: 100%;
+		background-position: 30px 60px;
+	}
+
+	/* Contact */
+	.contact-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.contact-container header {
+		margin: 0 auto;
+	}
